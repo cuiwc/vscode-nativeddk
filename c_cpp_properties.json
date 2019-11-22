@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "nativeddk-7.0-rc1",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/vmware/toolchain/cayman_esx_toolchain_gcc6-20292133d8d6444deefa46c286c3f74ec52badc8/usr/lib/gcc/x86_64-vmk-linux-gnu/6.4.0/include/",
+                "/opt/vmware/nativeddk-7.0.0-14828939/src/bora/vmkernel/include/vmkapi/v2_6_0_0"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "VMK_DEVKIT_HAS_API_VMKAPI_BASE",
+                "VMK_DEVKIT_USES_PUBLIC_APIS",
+                "VMK_DEVKIT_USES_BINARY_COMPATIBLE_APIS",
+                "VMK_DEVKIT_HAS_API_VMKAPI_SCSI",
+                "VMK_DEVKIT_HAS_NATIVE_DDK",
+                "VMK_DEVKIT_HAS_API_VMKAPI_ISCSI",
+                "VMK_DEVKIT_HAS_API_VMKAPI_NPIV",
+                "VMK_DEVKIT_HAS_API_VMKAPI_NET",
+                "VMK_DEVKIT_HAS_API_VMKAPI_ENS",
+                "VMK_DEVKIT_HAS_API_VMKAPI_GPU",
+                "VMK_DEVKIT_HAS_API_VMKAPI_SOCKETS",
+                "VMK_DEVKIT_HAS_API_VMKAPI_RDMA",
+                "VMK_DEVKIT_HAS_API_VMKAPI_NVME_DRV"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/opt/vmware/toolchain/cayman_esx_toolchain_gcc6-20292133d8d6444deefa46c286c3f74ec52badc8/usr/bin/x86_64-vmk-linux-gnu-gcc"
+        }
+    ],
+    "version": 4
+}
